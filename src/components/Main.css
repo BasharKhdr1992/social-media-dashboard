@@ -1,0 +1,16 @@
+.main {
+  padding: 0rem 5rem;
+  transform: translateY(-8rem);
+}
+
+.middle-header {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding: 0rem 1rem;
+    transform: translateY(-3.5rem);
+  }
+}

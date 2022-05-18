@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  height: 45vh;
+}
+
+.header-left,
+.header-right {
+  width: 50%;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    padding: 2rem 1rem;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .header-left,
+  .header-right {
+    width: 100%;
+  }
+}
